@@ -1,0 +1,628 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-weight: 700;
+}
+h2,
+p {
+  color: white;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 180px;
+  background-color: white;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 55px;
+  font-size: 16px;
+}
+.nav-menu .nav-item a:hover,
+.nav-menu .nav-item a:active {
+  color: black;
+}
+.nav-menu .nav-item a:link,
+.nav-menu .nav-item a:visited {
+  color: #2271b1;
+}
+.nav-item a {
+  color: black;
+  text-decoration: none;
+}
+.nav-item2 {
+  color: #2271b1;
+  text-decoration: none;
+}
+
+.ime {
+  color: #2271b1;
+  font-size: 20px;
+}
+.My-Account {
+  padding: 20px 65px;
+  background-color: #2271b1;
+  font-size: 18px;
+}
+.account {
+  text-decoration: none;
+  color: white;
+}
+
+.text {
+  width: 50%;
+  margin: 100px 0 0 180px;
+}
+
+.naslov {
+  font-weight: 700;
+  font-size: 36px;
+}
+.text-naslova {
+  margin-top: 30px;
+  line-height: 1.4;
+}
+
+.can-download {
+  margin-top: 30px;
+  color: grey;
+}
+.free-buy {
+  display: flex;
+  margin-top: 30px;
+  gap: 5px;
+}
+.free {
+  color: white;
+  background-color: #2271b1;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+.not-free {
+  color: white;
+  background-color: #2271b1;
+  text-decoration: none;
+  padding: 20px 12px;
+}
+.slika {
+  height: 700px;
+  display: flex;
+  background-image: url("../pictures/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-uh {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  font-size: 36px;
+}
+.para-uh {
+  color: #444;
+  display: Flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 24px;
+}
+.flex-under-hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 70px;
+}
+.justify-Li {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.color-li {
+  color: #2271b1;
+}
+.under-hero li {
+  list-style: none;
+}
+.card-holder {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.card-holder .card {
+  width: 400px;
+  height: 750px;
+  margin: 0px 20px;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+  border-radius: 25px;
+}
+.card h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #2271b1;
+  color: white;
+  padding: 10px;
+}
+.card img {
+  width: 25%;
+  height: 80px;
+  border-radius: 25px;
+}
+.text-kartice {
+  color: black;
+}
+.slika-kartice {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.podnaslov-kartice {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 15px;
+  align-items: center;
+}
+.drugi-naslov {
+  margin: 0;
+}
+.vrsta-antivirusa {
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+.text-kartice {
+  margin-top: 35px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+.el-kartice {
+  list-style: none;
+  margin-top: 16px;
+  margin-right: 100px;
+  color: #1d1d1b;
+}
+.lista-kartice {
+  margin: 20px 0px 0px 60px;
+}
+.cena {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 170px 0px 25px 0px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.cena2 {
+  margin: 100px 0px 25px 0px;
+}
+.cena3 {
+  margin: 30px 0px 25px 0px;
+}
+.learnmore {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 15px 5px;
+  background-color: #2271b1;
+  margin: 0px 30px;
+  border-radius: 15px;
+}
+.learnmore a {
+  text-decoration: none;
+  color: white;
+}
+.partners-flex {
+  display: flex;
+  justify-content: center;
+}
+/* .partners-flex {
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partners-flex h1 {
+  background-color: #f8ce11;
+  padding: 25px 40px;
+  font-size: 30px;
+  color: black;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s ease;
+} */
+
+.partners {
+  color: black;
+}
+.slika-partnera {
+  width: 150px;
+  height: 150px;
+  margin: 70px 0px;
+}
+.slike-partnera {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.testimonial-naslov {
+  display: flex;
+  justify-content: center;
+}
+.testimonial-holder {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-holder .testimonial {
+  width: 400px;
+  height: 400px;
+  margin: 0px 20px;
+  box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+  border-radius: 5px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+.testimonial-text {
+  color: black;
+  font-size: 20px;
+}
+.zvezda {
+  display: block;
+  color: yellow;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.customer-name {
+  margin-top: 20px;
+}
+.footer {
+  height: 40vh;
+  background-color: #f8f8ff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+}
+.footerN-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer-naslov {
+  color: #2271b1;
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-ul li {
+  list-style: none;
+  color: black;
+}
+.animirani-element {
+  width: 100px;
+  height: 100px;
+  background-image: url("../Pictures/avion.png");
+  background-size: cover;
+  background-position: center;
+  margin: 50px;
+  transition: transform 5s ease;
+}
+.animirani-element:hover {
+  transform: translateX(calc(100vw - 150px));
+}
+.contact-form {
+  width: 800px;
+  height: 550px;
+  margin: 100px auto;
+
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form h3 {
+  text-align: center;
+}
+.input-fields p {
+  color: black;
+}
+.input-fields {
+  width: 300px;
+  margin: 10px auto;
+}
+.input-fields input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.input-fields textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.submit-btn {
+  margin: auto;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 25px;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  background-color: skyblue;
+}
+
+/*  */
+
+.company-name {
+  color: #fff; /* White */
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 60px;
+  border: 1px solid #ddd;
+}
+
+.section-title {
+  color: #002f5e; /* Navy Blue */
+}
+
+.about-us-text {
+  line-height: 1.6;
+  color: #333;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-content,
+  .nav-menu {
+    padding: 0px;
+  }
+
+  .nav-content,
+  .nav-menu,
+  .nav-item a {
+    margin: 5px;
+  }
+
+  .nav-content,
+  .nav-menu,
+  .nav-item a {
+    padding: 5px;
+  }
+  .text {
+    margin: 80px 0px 0px 50px;
+  }
+
+  .slika {
+    height: 70vh;
+  }
+
+  .card-holder {
+    height: auto;
+    padding: 20px 0px;
+  }
+
+  .card-holder .card {
+    height: 900px;
+    margin: 0px 7px;
+  }
+  .text-el {
+    font-size: 16px;
+  }
+  .text-kartice {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .cena {
+    margin-top: 270px;
+  }
+  .cena2 {
+    margin-top: 150px;
+  }
+  .cena3 {
+    margin-top: 30px;
+  }
+  .partners {
+    margin-top: 35px;
+  }
+  .testimonial-holder {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .footer {
+    height: auto;
+    font-size: 14px;
+    padding: 60px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .nav-content {
+    display: block;
+    margin: 0px;
+  }
+  .nav-content .ime {
+    text-align: center;
+  }
+  .nav-content .My-Account {
+    text-align: center;
+  }
+  .nav-menu {
+    display: block;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-menu .nav-item {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .nav-menu .nav-item a {
+    padding: 5px;
+  }
+  .slika {
+    height: 32vh;
+  }
+  .text {
+    margin: 10px 10px;
+  }
+  .naslov {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .text-naslova {
+    font-size: 8px;
+    margin: 10px 0px 0px 10px;
+  }
+  .can-download {
+    margin: 10px 0px 0px 10px;
+    font-size: 6px;
+  }
+  .free-buy {
+    margin-top: 10px;
+    margin: 10px 0px 0px 10px;
+  }
+  .free {
+    padding: 5px;
+  }
+  .free h2 {
+    font-size: 8px;
+  }
+  .not-free {
+    padding: 5px;
+    font-size: 8px;
+  }
+  .not-free h2 {
+    font-size: 8px;
+  }
+  .text-uh {
+    margin-top: 30px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .para-uh {
+    font-size: 18px;
+  }
+  .flex-under-hero {
+    margin-top: 30px;
+    gap: 30px;
+    padding: 10px;
+  }
+  .justify-Li {
+    font-size: 26px;
+  }
+  .color-li a {
+    font-size: 14px;
+  }
+  .reklama {
+    margin-bottom: 20px;
+  }
+  .card-holder {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .card-holder .card {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+  }
+  .slike-partnera {
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .slika-partnera {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  .testimonial-holder {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .testimonial-holder .testimonial {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+  }
+  .partners {
+    font-size: 26px;
+    margin: 20px 0px;
+  }
+  .testimonial-naslov {
+    font-size: 26px;
+    margin: 20px 0px;
+  }
+  .animirani-element {
+    margin: 15px;
+  }
+  .footer {
+    padding: 10px 10px;
+    height: auto;
+  }
+  .footer-naslov {
+    font-size: 16px;
+  }
+  .footer-ul li {
+    font-size: 14px;
+  }
+  .nav-contentR {
+    width: 300px;
+    margin: 0px;
+    margin: 0px auto;
+  }
+  .contact-form {
+    width: 300px;
+  }
+  .ime h1 {
+    margin-bottom: 15px;
+  }
+}
+
+/* main color:#2271b1;
+  background: rgb(84, 171, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 171, 241, 1) 3%,
+    rgba(149, 200, 241, 1) 21%,
+    rgba(252, 252, 252, 1) 40%
+  );
+*/
