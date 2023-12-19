@@ -324,7 +324,7 @@ p {
 .animirani-element {
   width: 100px;
   height: 100px;
-  background-image: url("../Pictures/avion.png");
+  background-image: url("../pictures/avion.png");
   background-size: cover;
   background-position: center;
   margin: 50px;
